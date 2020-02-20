@@ -1,0 +1,9 @@
+---
+name: redis-exporter
+version: 1.0.0
+description: GS Labs test application
+maintainers:
+  - name: Anton Emelyanov
+    email: mrshadow74@mail.ru
+appVersion: 0.0.1
+

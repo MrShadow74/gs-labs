@@ -1,0 +1,10 @@
+---
+service:
+  internalPort: 2112
+  externalPort: 2112
+
+image:
+  repository: mrshadow74/redis-exporter
+  tag: latest
+
+

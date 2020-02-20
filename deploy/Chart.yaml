@@ -1,0 +1,18 @@
+---
+apiVersion: v2
+name: redis-exporter
+version: 1.0.0
+description: GS Labs test application
+maintainers:
+  - name: Anton Emelyanov
+    email: mrshadow74@mail.ru
+
+dependencies:
+  - name: redis
+    version: 10.5.3
+    repository: https://kubernetes-charts.storage.googleapis.com/
+
+  - name: redis-exporter
+    version: 1.0.0
+    repository: "file://../redis-exporter"
+

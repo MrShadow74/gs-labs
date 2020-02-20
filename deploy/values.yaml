@@ -1,0 +1,5 @@
+---
+redis:
+  usePassword: false
+  cluster:
+    enabled: false

@@ -1,0 +1,22 @@
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  labels:
+    app: redis-exporter
+  name: redis-exporter
+spec:
+  replicas: 1
+  strategy: {}
+  template:
+    metadata:
+      labels:
+        app: redis-exporter
+    spec:
+      containers:
+      - image: mrshadow74/redis-exporter
+        name: redis-exporter
+        ports:
+        - containerPort: 2112
+        resources: {}
+      restartPolicy: Always
+status: {}

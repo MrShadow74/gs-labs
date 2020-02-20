@@ -1,0 +1,6 @@
+version: '3'
+services:
+  redis-exporter:
+    image: mrshadow74/redis-exporter
+    ports:
+      - 2112/tcp
